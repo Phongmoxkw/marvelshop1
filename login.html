@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MARVEL</title>
+        <meta charset="UTF-8">
+        <link rel="icon" type="image/x-icon" href="./Image/marvel.icon"/>
+        <script src="./site.js"></script>
+        <style>
+            body {
+                background-color: rgb(111, 158, 224);
+            }
+            tr {
+                height: 0px;
+            }
+            td {
+                font-family: Helvetica;
+                height: 50px;
+                font-size: 30px;
+                font-weight: bold;
+                border-radius: 5px;
+            }
+            input {
+                width: 350px;
+                height: 50px;
+                border-radius: 5px;
+                font-size: 30px;
+            }
+            .vo {
+                width: 100px;
+                border-radius: 5px;
+                font-size: 17px;
+                font-weight: bold;
+            }
+        </style>
+        </title>
+    </head>
+    <body>
+        <div>
+        <table align="center">
+            <caption><h1>ĐĂNG NHẬP</h1></caption>
+            <tr>
+                <td>Tài khoản</td>
+                <td><input type="text" id="textA"/></td> 
+            </tr>
+            <tr>
+                <td>Mật khẩu</td>
+                <td><input type="password" id="textB"/></td> 
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input class="vo" type="submit" value="Đăng nhập" onclick="A_dangnhap()"/>
+                    <input class="vo" type="reset" value="Hủy" id="xoa" onclick="Xoa()"/>
+                </td>
+            </tr>
+        </table>
+        </div>
+    </body>
+</html>
